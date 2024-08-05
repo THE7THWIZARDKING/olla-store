@@ -19,7 +19,8 @@
 
                 <!-- Home -->
                 <li>
-                    <a href="/" class="block py-2 px-3 text-white rounded md:bg-transparent   md:hover:text-[#F59E0B] md:text-gray-700 md:p-0 dark:text-black md:dark:text-blue-500" aria-current="page">Home</a>
+                    <a href="/"
+                        class="block py-2 px-3 text-white rounded hover:bg-[#F59E0B] md:hover:bg-transparent md:border-0 md:hover:text-[#F59E0B] md:p-0 dark:text-black md:dark:hover:text-[#F59E0B] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
                 </li>
 
                 <!-- About -->
