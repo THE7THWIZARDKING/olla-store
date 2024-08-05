@@ -1,6 +1,45 @@
-<nav class="bg-[#0F172A] text-white flex justify-left px-20 py-3 gap-12">
-    <a href="/">Home</a>
-    <a href="/service">Service</a>
-    <a href="/about-us">About</a>
-    <a href="/contact">Contact</a>
+<nav class="bg-[#4F46E5] border-gray-200 border-b shadow-2xl">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="/logo.png" class="h-8" alt="Olla Store Logo" />
+        </a>
+        <button data-collapse-toggle="navbar-default" type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul
+                class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg bg-[#4F46E5] md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent">
+
+                <!-- Home -->
+                <li>
+                    <a href="/" class="block py-2 px-3 text-white rounded md:bg-transparent   md:hover:text-[#F59E0B] md:text-gray-700 md:p-0 dark:text-black md:dark:text-blue-500" aria-current="page">Home</a>
+                </li>
+
+                <!-- About -->
+                <li>
+                    <a href="/about-us"
+                        class="block py-2 px-3 text-white rounded hover:bg-[#F59E0B] md:hover:bg-transparent md:border-0 md:hover:text-[#F59E0B] md:p-0 dark:text-black md:dark:hover:text-[#F59E0B] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                </li>
+
+                <!-- Services -->
+                <li>
+                    <a href="/service"
+                        class="block py-2 px-3 text-white rounded hover:bg-[#F59E0B] md:hover:bg-transparent md:border-0 md:hover:text-[#F59E0B] md:p-0 dark:text-black md:dark:hover:text-[#F59E0B] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                </li>
+
+                <!-- Contact -->
+                <li>
+                    <a href="/contact"
+                        class="block py-2 px-3 text-white rounded hover:bg-[#F59E0B] md:hover:bg-transparent md:border-0 md:hover:text-[#F59E0B] md:p-0 dark:text-black md:dark:hover:text-[#F59E0B] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
