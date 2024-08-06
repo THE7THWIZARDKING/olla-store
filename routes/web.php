@@ -10,14 +10,12 @@ Route::get("/service", [PageController::class, 'service'])->name('service');
 Route::get("/blog", [PageController::class, 'blog'])->name('blog');
 Route::get("/product", [PageController::class, 'product'])->name('product');
 Route::get("/faq", [PageController::class, 'faq'])->name('faq');
-Route::get("/anish", [PageController::class, 'Anish'])->name('anish');
+Route::get("/anish", [PageController::class, 'anish'])->name('anish');
 Route::get("/arjun", [PageController::class, 'arjun'])->name('arjun');
 
-
-
-
-
-
+Route::fallback(function () {
+    return view('error');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

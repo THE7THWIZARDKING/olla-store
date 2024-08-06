@@ -6,38 +6,48 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    function index()
+    public function index()
     {
         return view('index');
     }
-    function about()
+
+    public function about()
     {
         return view('about');
     }
-    function contact()
+
+    public function contact()
     {
         return view('contact');
     }
-    function service()
+
+    public function service()
     {
         return view('service');
     }
-    function blog()
+
+    public function blog()
     {
         return view('blog');
     }
-    function product()
+
+    public function product()
     {
         return view('product');
     }
-    function faq()
+
+    public function faq()
     {
         return view('faq');
     }
-    function anish(){
+
+    public function anish()
+    {
         return view('anish');
     }
-    function arjun(){
+
+    public function arjun()
+    {
         return view('arjun');
     }
 }
