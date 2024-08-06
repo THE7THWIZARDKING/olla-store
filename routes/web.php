@@ -1,50 +1,20 @@
 <?php
 
+use App\Http\Controllers\PageController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('frontend.index');
-});
-
-Route::get('/about-us', function () {
-    return view('frontend.about');
-});
-
-Route::get('/contact', function () {
-    return view('frontend.contact');
-});
-
-Route::get('/service', function () {
-    return view('frontend.service');
-});
-
-Route::get('/Product', function () {
-    return view('frontend.product');
-});
-Route::get('/blog', function () {
-    return view('frontend.Blog');
-});
+Route::get("/", [PageController::class, 'index'])->name('index');
+Route::get("/", [PageController::class, 'about'])->name('about');
+Route::get("/", [PageController::class, 'service'])->name('service');
+Route::get("/", [PageController::class, 'anish'])->name('anihs');
+Route::get("/", [PageController::class, 'cart'])->name('cart');
+Route::get("/", [PageController::class, 'product'])->name('product');
+Route::get("/", [PageController::class, 'blog'])->name('blog');
+Route::get("/", [PageController::class, 'faq'])->name('faq);
 
 
-Route::get('/cart', function () {
-    return view('frontend.cart');
-});
 
-
-Route::get('/faq', function () {
-    return view('frontend.faq');
-});
-
-Route::get('/anish', function () {
-    return view('frontend.Anish');
-});
-Route::get('/arjun', function () {
-    return view('frontend.arjun');
-});
-Route::get('/customer-review', function () {
-    return view('frontend.Customer');
-});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
