@@ -133,7 +133,7 @@
           </div>
 
           <div class="mt-4 min-w-0 flex-1 space-y-4 sm:mt-0">
-            <p class="text-base font-normal text-gray-500 dark:text-gray-400">My old IMAC was from 2013. This replacement was well needed. Very fast, and the colour matches my office set up perfectly. The display is out of this world and I’m very happy with this purchase.</p>
+            <p class="text-base font-normal text-gray-500 dark:text-gray-400">                I recently upgraded from my old 2013 iMac to a new model, and the difference is remarkable. The performance is lightning-fast, making multitasking and demanding applications a breeze. The color and design of the new iMac blend perfectly with my office setup, enhancing the overall aesthetics of my workspace. The display is truly exceptional—vivid, crisp, and immersive, which has significantly improved my productivity and enjoyment during both work and leisure. I’m extremely happy with this purchase and can’t believe I waited so long to make the upgrade.</p>
 
             <div class="flex items-center gap-4">
               <p class="text-sm font-medium text-gray-500 dark:text-gray-400">Was it helpful to you?</p>
