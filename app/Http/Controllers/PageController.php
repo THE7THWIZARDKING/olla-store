@@ -8,46 +8,51 @@ class PageController extends Controller
 {
     public function index()
     {
-        return view('index');
+        return view('frontend.index');
     }
 
     public function about()
     {
-        return view('about');
+        return view('frontend.about');
     }
 
     public function contact()
     {
-        return view('contact');
+        return view('frontend.contact');
     }
 
     public function service()
     {
-        return view('service');
+        return view('frontend.service');
     }
 
     public function blog()
     {
-        return view('blog');
+        return view('frontend.blog');
     }
 
     public function product()
     {
-        return view('product');
+        return view('frontend.product');
     }
 
     public function faq()
     {
-        return view('faq');
+        return view('frontend.faq');
     }
 
     public function anish()
     {
-        return view('anish');
+        return view('frontend.anish');
     }
 
     public function arjun()
     {
-        return view('arjun');
+        return view('frontend.arjun');
+    }
+
+    public function customer()
+    {
+        return view('frontend.customer');
     }
 }

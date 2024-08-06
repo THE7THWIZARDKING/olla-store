@@ -5,16 +5,18 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get("/", [PageController::class, 'index'])->name('index');
-Route::get("/about", [PageController::class, 'about'])->name('about');
+Route::get("/about-us", [PageController::class, 'about'])->name('about');
 Route::get("/service", [PageController::class, 'service'])->name('service');
+Route::get("/contact", [PageController::class, 'contact'])->name('contact');
+Route::get("/customer-review", [PageController::class, 'customer'])->name('customer');
 Route::get("/blog", [PageController::class, 'blog'])->name('blog');
-Route::get("/product", [PageController::class, 'product'])->name('product');
+Route::get("/Product", [PageController::class, 'product'])->name('product');
 Route::get("/faq", [PageController::class, 'faq'])->name('faq');
 Route::get("/anish", [PageController::class, 'anish'])->name('anish');
 Route::get("/arjun", [PageController::class, 'arjun'])->name('arjun');
 
 Route::fallback(function () {
-    return view('error');
+    return view('frontend.error');
 });
 
 Route::get('/dashboard', function () {
