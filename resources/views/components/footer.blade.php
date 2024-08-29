@@ -22,7 +22,7 @@
             </li>
 
             <li>
-                <a href="/customer-review" class="mr-4 hover:underline md:mr-6">customer</a>
+                <a href="/customer-review" class="mr-4 hover:underline md:mr-6">Customer</a>
             </li>
         </ul>
         <span class="text-sm text-white sm:text-center dark:text-gray-400">
