@@ -2,7 +2,7 @@
     <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700">
         <div class="flex items-center space-x-4 mb-6">
             <img class="w-20 h-20 rounded-full object-cover ring-4 ring-gray-300 dark:ring-gray-600 shadow-lg"
-                src="https://scontent.fktm12-1.fna.fbcdn.net/v/t39.30808-1/358633294_922879958811877_360171551869024495_n.jpg?stp=dst-jpg_s200x200&_nc_cat=108&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=NlSL-h7g_ZMQ7kNvgF0qJtn&_nc_ht=scontent.fktm12-1.fna&oh=00_AYBnMRpQT1iUwOIT6J2MFTenGzbwuVyLGb7GFna_MRe4eA&oe=66B78D2C"
+                src="https://scontent.fktm12-1.fna.fbcdn.net/v/t39.30808-1/358633294_922879958811877_360171551869024495_n.jpg?stp=dst-jpg_s200x200&_nc_cat=108&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=PIhCB9H3El4Q7kNvgEhXbMf&_nc_ht=scontent.fktm12-1.fna&oh=00_AYCjooADKxODKHdZG-P8tCUqh27kofljrH9zwvC0Tt3XfQ&oe=66D5DFAC"
                 alt="Anish Jaiswal avatar" />
             <div>
                 <span class="block text-xl font-semibold text-gray-900 dark:text-white">Anish Jaiswal</span>
