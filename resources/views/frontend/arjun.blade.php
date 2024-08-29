@@ -3,7 +3,7 @@
         <div class="flex items-center space-x-4 mb-6">
             <img class="w-20 h-20 rounded-full object-cover ring-4 shadow-2xl ring-gray-300 dark:ring-gray-600"
                 src="https://scontent.fktm12-1.fna.fbcdn.net/v/t39.30808-1/381240115_1490514911771588_1013657100644636504_n.jpg?stp=cp6_dst-jpg_p200x200&_nc_cat=110&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=eaqslnEmhp8Q7kNvgET5_8Q&_nc_ht=scontent.fktm12-1.fna&oh=00_AYDKtkuERF2Z9iQX5XJ6J6lPbnisB9KAttATWjA6lHmLrA&oe=66B79B52"
-                alt="Arjun Jung Rana avatar" />
+                alt="Arjun Jung  avatar" />
             <div>
                 <span class="block text-xl font-semibold text-gray-900 dark:text-white">Arjun Jung Rana</span>
                 <span class="block text-sm text-gray-600 dark:text-gray-400">Verified Buyer</span>
