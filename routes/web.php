@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,6 +19,13 @@ Route::get("/arjun", [PageController::class, 'arjun'])->name('arjun');
 Route::fallback(function () {
     return view('frontend.error');
 });
+
+
+
+Route::get('payment', [PaymentController::class, 'showPaymentForm'])->name('payment.form');
+Route::post('payment', [PaymentController::class, 'processPayment'])->name('payment.process');
+Route::get('payment/success', [PaymentController::class, 'handleSuccess'])->name('payment.success');
+Route::get('payment/failure', [PaymentController::class, 'handleFailure'])->name('payment.failure');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
