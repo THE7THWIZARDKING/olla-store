@@ -14,7 +14,7 @@ Route::get("/blog", [PageController::class, 'blog'])->name('blog');
 Route::get("/Product", [PageController::class, 'product'])->name('product');
 Route::get("/faq", [PageController::class, 'faq'])->name('faq');
 Route::get("/anish", [PageController::class, 'anish'])->name('anish');
-Route::get("/arjun", [PageController::class, 'arjun'])->name('arjun');
+Route::get("/ram", [PageController::class, 'ram'])->name('ram');
 
 Route::fallback(function () {
     return view('frontend.error');

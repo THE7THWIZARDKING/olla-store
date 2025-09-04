@@ -46,9 +46,9 @@ class PageController extends Controller
         return view('frontend.anish');
     }
 
-    public function arjun()
+    public function ram()
     {
-        return view('frontend.arjun');
+        return view('frontend.ram');
     }
 
     public function customer()
